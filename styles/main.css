@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+    background-color: #F2F6FC;
+}
+.greeting{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.button {
+    
+}
+.button a{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    display: block;
+    background-color: #FCCA72;
+    color: #fff;
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: 3.5px;
+    width: 200px;
+    margin: 0px auto 20px;
+    text-align: center;
+}
+
+.button a:link {
+    color: #000;
+    text-decoration: none;
+  }
+.button a:visited {
+    color: #000;
+  }
+.button a:active,
+button a:visited:active {
+    background-color: red;
+  }
+.button a:hover,
+button a:visited:hover{
+      background-color: #F19603; /* #F79D02; */
+  }
+ 
