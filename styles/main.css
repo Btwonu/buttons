@@ -8,17 +8,26 @@ body {
     /* background-color: #F2F6FC; */
 }
 .page {
-  width: 1000px;
+  width: 100%;
   margin: 0px auto;
+  
 }
 .greeting{
     text-align: center;
     font-size: 22px;    
     margin: 0px auto 20px;
 }
+
+.button-wrapper {
+  width: 50%;
+  margin: auto;
+}
+
 .page div {
   width: 50%;
 }
+
+
 .button a{
     font-size: 20px;
     letter-spacing: 1.5px;
@@ -59,7 +68,7 @@ button a:visited:hover{
   float: left;  
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .page div {
     width: auto;
   }
@@ -67,4 +76,4 @@ button a:visited:hover{
     float: none;
 
   }
-}
+} */
